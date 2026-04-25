@@ -1,7 +1,6 @@
 {
-  "framework": "nextjs",
-  "rootDirectory": "nexusscale",
-  "buildCommand": "npm run build",
-  "outputDirectory": ".next",
-  "installCommand": "npm install"
+  "buildCommand": "cd nexusscale && npm install && npm run build",
+  "outputDirectory": "nexusscale/.next",
+  "installCommand": "cd nexusscale && npm install",
+  "framework": "nextjs"
 }
